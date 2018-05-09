@@ -500,6 +500,126 @@ keyterms13.push("stakeholder analysis — A technique for analyzing information 
 keyterms13.push("stakeholder register — A document that includes details about identified project stakeholders");
 
 
+var keynotesRISK1 = [];
+
+keynotesRISK1.push("Contingency plans are predefined actions that the project team will take if anidentified risk event occurs. For example, if the project team knows that anew release of a software package may not be available in time to use for the project, the team might have a contingency plan to use the existing, older version of the software.");
+keynotesRISK1.push("Fallback plans are developed for risks that have a high impact on meeting project objectives, and are put into effect if attempts to reduce the risk do not work. For example, a new college graduate might have a main plan and sev eral contingency plans for where to live after graduation, but if these plans do not work out, a fallback plan might be to live at home for a while. Some-times the terms contingency plan and fallback plan are used interchangeably.");
+keynotesRISK1.push("Contingency reserves or contingency allowances are provisions held by the project sponsor or organization to reduce the risk of cost or schedule over- runs to an acceptable level. Contingency reserves are for known risks, while management reserves are funds held for unknown risks. For example, if a project appears to be off course because the staff is inexperienced with some new technology and the team had not identified the problem as a risk, the project sponsor may provide additional funds from contingency reserves to hire an outside consultant to train and advise the project staff in using the new technology"); 
+keynotesRISK1.push("Structure/process risk: What degree of change will the new project introduce into user areas and business procedures? How many distinct user groups does the project need to satisfy? With how many other systems does the new proj- ect or system need to interact? Does the organization have processes in place to complete the project successfully?");
+keynotesRISK1.push("People risk: Does the organization have people with appropriate skills to complete the project successfully? If not, can the organization find such peo- ple? Do people have the proper managerial and technical skills? Do they have enough experience? Does senior management support the project? Is there a project champion? Is the organization familiar with the sponsor or customer for the project? How good is the relationship with the sponsor or customer?");
+keynotesRISK1.push("Technology risk: Is the project technically feasible? Will it use mature, leading-edge, or bleeding-edge technologies? When will decisions be made on which technology to use? Will hardware, software, and networks function properly? Will the technology be available in time to meet project objectives? Could the technology be obsolete before a useful product can be created? You can also break down the technology risk category into hardware, software, and network technology, if desired");
+keynotesRISK1.push("Financial risk: Can the organization afford to undertake the project? How confident are stakeholders in the financial projections? Will the project meet NPV, ROI, and payback estimates? If not, can the organization afford to continue the project? Is this project the best way to use the organization’s financial resources?");
+keynotesRISK1.push("Market risk: If the IT project will create a new product or service, will it be useful to the organization or marketable to others? Will users accept and use the product or service? Will someone else create a better product or service faster, making the project a waste of time and money?");
+
+
+var keynotesRISK2 = [];
+keynotesRISK2.push("Risk avoidance or eliminating a specific threat, usually by eliminating its causes. Of course, not all risks can be eliminated, but specific risk events can be. For example, a project team may decide to continue using a specific piece of hardware or software on a project because the team knows it works. Other products that could be used on the project may be available, but if the project team is unfamiliar with them, they could cause significant risk. Using familiar hardware or software eliminates this risk.");
+keynotesRISK2.push("Risk acceptance or accepting the consequences if a risk occurs. For example, a project team planning a big project review meeting could take an active approach to risk by having a contingency or backup plan and contingency reserves if the team cannot get approval for a specific meeting site. On the other hand, the team could take a passive approach and accept whatever facility the organization provides.");
+keynotesRISK2.push("Risk transference or shifting the consequence of a risk and responsibility for its management to a third party. For example, risk transference is often used in dealing with financial risk exposure. A project team may purchase special insur- ance or warranty protection for specific hardware needed for a project. If the hardware fails, the insurer must replace it within a specified period of time.");
+keynotesRISK2.push("Risk mitigation or reducing the impact of a risk event by reducing the proba- bility of its occurrence. Suggestions for reducing common sources of risk on IT projects were provided at the beginning of this chapter. Other examples of risk mitigation include using proven technology, having competent project personnel, using various analysis and validation techniques, and buying main- tenance or service agreements from subcontractors.");
+keynotesRISK2.push("Risk exploitation or doing whatever you can to make sure the positive risk happens. For example, suppose that Cliff’s company funded a project to pro- vide new computer classrooms for a nearby school in need. They might select one of their top project managers to organize news coverage of the project, write a press release, or hold some other public event to ensure that the proj- ect produces good public relations for the company, which could lead to more business.");
+keynotesRISK2.push("Risk sharing or allocating ownership of the risk to another party. Using the same example of implementing new computer classrooms, the project man- ager could form a partnership with the school’s principal, school board, or parent-teacher organization to share responsibility for achieving good public relations for the project. On the other hand, the company might partner with a local training firm that agrees to provide free training for all of the teachers on how to use the new computer classrooms.");
+keynotesRISK2.push("Risk enhancement or changing the size of the opportunity by identifying and maximizing key drivers of the positive risk. For example, an important driver of getting good public relations for the computer classrooms project might be to generate awareness and excitement about it among students, parents, and teachers. These groups might then do their own formal or informal advertising of the project and Cliff’s company, which in turn might interest other groups and generate more business.");
+keynotesRISK2.push("Risk acceptance also applies to positive risks when the project team does not take any actions toward a risk. For example, the computer classrooms project manager might assume that the project will result in good public relations for the company and not feel compelled to do anything extra.");
+
+
+var keynotesCOST1 = [];
+keynotesCOST1.push("Cost variance (CV) is the earned value minus the actual cost. If cost variance is a negative number, it means that performing the work cost more than planned. If cost variance is a positive number, performing the work cost less than planned.");
+keynotesCOST1.push("Schedule variance (SV) is the earned value minus the planned value. A negative schedule variance means that it took longer than planned to perform the work, and a pos- itive schedule variance means that the work took less time than planned to perform.");
+keynotesCOST1.push("cost performance index (CPI) is the ratio of earned value to actual cost; it can be used to estimate the projected cost of completing the project. If the CPI is equal to one, or 100 percent, then the planned and actual costs are equal—the costs are exactly as bud- geted. If the CPI is less than one or less than 100 percent, the project is over budget. If the CPI is greater than one or more than 100 percent, the project is under budget.");
+keynotesCOST1.push(" schedule performance index (SPI) is the ratio of earned value to planned value; it can be used to estimate the projected time to complete the project. Similar to the cost performance index, an SPI of one, or 100 percent, means the project is on schedule. If the SPI is greater than one or 100 percent, then the project is ahead of schedule. If the SPI is less than one or 100 percent, the project is behind schedule.");
+keynotesCOST1.push("");
+keynotesCOST1.push("");
+
+
+
+var riskToggle = 1;
+var costToggle = 1;
+
+
+
+function showCostNotes(){
+	if(riskToggle % 2){
+		var allElements = [];
+
+		allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+		// var searchTerm = getSelectionText();
+		var searchWordArray = keynotesCOST1;
+
+		for(var i=0;i<allElements.length;i++){
+			if(searchWordArray[i]  == null){
+				break;
+			}
+			console.log("c1" );
+
+			allElements[i].title = searchWordArray[i];
+
+		}
+	}
+	else{
+		var allElements = [];
+
+		allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+		// var searchTerm = getSelectionText();
+		var searchWordArray = keynotesCOST2;
+
+		for(var i=0;i<allElements.length;i++){
+			if(searchWordArray[i]  == null){
+				break;
+			}
+			console.log("c2" );
+
+			allElements[i].title = searchWordArray[i];
+
+		}
+	}
+
+	costToggle += 1;
+}
+
+function showRiskNotes(){
+	if(riskToggle % 2){
+		var allElements = [];
+
+		allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+		// var searchTerm = getSelectionText();
+		var searchWordArray = keynotesRISK1;
+
+		for(var i=0;i<allElements.length;i++){
+			if(searchWordArray[i]  == null){
+				break;
+			}
+			console.log("r1" );
+
+			allElements[i].title = searchWordArray[i];
+
+		}
+	}
+	else{
+		var allElements = [];
+
+		allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+		// var searchTerm = getSelectionText();
+		var searchWordArray = keynotesRISK2;
+
+		for(var i=0;i<allElements.length;i++){
+			if(searchWordArray[i]  == null){
+				break;
+			}
+			console.log("r2" );
+
+			allElements[i].title = searchWordArray[i];
+
+		}
+	}
+
+	riskToggle += 1;
+}
+
 
 function searchStringInArray (str, strArray) {
 	var results = [];
@@ -667,6 +787,13 @@ function doc_keyUp(e) {
         update5();
     }
 
+    if (e.keyCode == 220 && e.ctrlKey){
+    	showRiskNotes();
+    }
+
+    if (e.keyCode == 221 && e.ctrlKey){
+    	showCostNotes();
+    }
     // if (e.keyCode == 65 && e.ctrlKey && e.altKey) {
     if(e.keyCode == 27){
         // call your function to do the thing
