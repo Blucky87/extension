@@ -513,20 +513,114 @@ function searchStringInArray (str, strArray) {
 
 function vocab(term){
 	var result = searchStringInArray(term, keyterms);
-	// console.log(result);
 	return result;
 }
 
 function vocab2(term){
 	var result = searchStringInArray(term, keyterms2);
-	// console.log(result);
 	return result;
 }
 
 function vocab3(term){
 	var result = searchStringInArray(term, keyterms3);
-	// console.log(result);
 	return result;
+}
+
+function vocab7 (term){
+	var result = searchStringInArray(term, keyterms7);
+	return result;
+}
+
+function vocab8 (term){
+	var result = searchStringInArray(term, keyterms8);
+	return result;
+}
+
+function vocab9 (term){
+	var result = searchStringInArray(term, keyterms9);
+	return result;
+}
+
+function vocab10 (term){
+	var result = searchStringInArray(term, keyterms10);
+	return result;
+}
+
+function vocab11 (term){
+	var result = searchStringInArray(term, keyterms11);
+	return result;
+}
+
+function vocab12 (term){
+	var result = searchStringInArray(term, keyterms12);
+	return result;
+}
+
+function vocab13 (term){
+	var result = searchStringInArray(term, keyterms13);
+	return result;
+}
+
+function vocabALL(term){
+	var result = [];
+	result = result.concat(vocab(term), 
+							vocab2(term), 
+							vocab3(term),
+							vocab7(term),
+							vocab8(term),
+							vocab9(term),
+							vocab10(term),
+							vocab11(term),
+							vocab12(term),
+							vocab13(term)
+						);
+
+	return result;
+}
+
+function vocabALLRev(term){
+	var result = [];
+	result = result.concat(vocab(term), 
+							vocab2(term), 
+							vocab3(term),
+							vocab7(term),
+							vocab8(term),
+							vocab9(term),
+							vocab10(term),
+							vocab11(term),
+							vocab12(term),
+							vocab13(term)
+						);
+	
+	return result.reverse();
+}
+
+function vocabLate(term){
+	var result = [];
+	result = result.concat(vocab7(term),
+							vocab8(term),
+							vocab9(term),
+							vocab10(term),
+							vocab11(term),
+							vocab12(term),
+							vocab13(term)
+						);
+	
+	return result;
+}
+
+function vocabLateRev(term){
+	var result = [];
+	result = result.concat(vocab7(term),
+							vocab8(term),
+							vocab9(term),
+							vocab10(term),
+							vocab11(term),
+							vocab12(term),
+							vocab13(term)
+						);
+	
+	return result.reverse();
 }
 
 function vall(term){
@@ -535,16 +629,46 @@ function vall(term){
 	return result;
 }
 
+
+
+
+
+
+
 // define a handler
 function doc_keyUp(e) {
 
+	// console.log("FIRE");
+
     // this would test for whichever key is 40 and the ctrl key at the same time
-    if (e.keyCode == 65 && e.altKey) {
+    if (e.keyCode == 112 && e.ctrlKey ) {
         // call your function to do the thing
-        update();
+        update1();
     }
 
-    if (e.keyCode == 65 && e.ctrlKey && e.altKey) {
+
+    if (e.keyCode == 113 && e.ctrlKey) {
+        // call your function to do the thing
+        update2();
+    }
+
+    if (e.keyCode == 114 && e.ctrlKey) {
+        // call your function to do the thing
+        update3();
+    }
+
+    if (e.keyCode == 115 && e.ctrlKey) {
+        // call your function to do the thing
+        update4();
+    }
+
+    if (e.keyCode == 116 && e.ctrlKey) {
+        // call your function to do the thing
+        update5();
+    }
+
+    // if (e.keyCode == 65 && e.ctrlKey && e.altKey) {
+    if(e.keyCode == 27){
         // call your function to do the thing
         clear();
     }
@@ -553,7 +677,7 @@ function doc_keyUp(e) {
 // register the handler 
 document.addEventListener('keyup', doc_keyUp, false);
 
-function update(){
+function update1(){
 	var allElements = [];
 
 	allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
@@ -565,7 +689,87 @@ function update(){
 		if(searchWordArray[i]  == null){
 			break;
 		}
-		// console.log(searchWordArray[i]);
+		console.log("update1 using elements: [" + i + " / " + allElements.length + "] for " + searchWordArray.length + " results" );
+
+		allElements[i].title = searchWordArray[i];
+
+	}
+
+}
+
+function update2(){
+	var allElements = [];
+
+	allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+	var searchTerm = getSelectionText();
+	var searchWordArray = vocabALL(searchTerm);
+
+	for(var i=0;i<allElements.length;i++){
+		if(searchWordArray[i]  == null){
+			break;
+		}
+		console.log("update2 using elements: [" + i + " / " + allElements.length + "] for " + searchWordArray.length + " results" );
+
+		allElements[i].title = searchWordArray[i];
+
+	}
+
+}
+
+function update3(){
+	var allElements = [];
+
+	allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+	var searchTerm = getSelectionText();
+	var searchWordArray = vocabALLRev(searchTerm);
+
+	for(var i=0;i<allElements.length;i++){
+		if(searchWordArray[i]  == null){
+			break;
+		}
+		console.log("update3 using elements: [" + i + " / " + allElements.length + "] for " + searchWordArray.length + " results" );
+
+		allElements[i].title = searchWordArray[i];
+
+	}
+
+}
+
+function update4(){
+	var allElements = [];
+
+	allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+	var searchTerm = getSelectionText();
+	var searchWordArray = vocabLate(searchTerm);
+
+	for(var i=0;i<allElements.length;i++){
+		if(searchWordArray[i]  == null){
+			break;
+		}
+		console.log("update4 using elements: [" + i + " / " + allElements.length + "] for " + searchWordArray.length + " results" );
+
+		allElements[i].title = searchWordArray[i];
+
+	}
+
+}
+
+function update5(){
+	var allElements = [];
+
+	allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+	var searchTerm = getSelectionText();
+	var searchWordArray = vocabLateRev(searchTerm);
+
+	for(var i=0;i<allElements.length;i++){
+		if(searchWordArray[i]  == null){
+			break;
+		}
+		console.log("update5");
 
 		allElements[i].title = searchWordArray[i];
 
