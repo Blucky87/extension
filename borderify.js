@@ -234,6 +234,273 @@ keyterms.push("Program evaluation and review technique (pert) - is a network ana
 keyterms.push("Critical chain scheduling - a method of scheduling that considers limited resources when creating a project schedule and includes buffers to protect the project completion date");
 keyterms.push("Gantt charts provide a standard format for displaying project schedule information by listing project activities and their corresponding start and finish dates in a calendar format​");
 
+
+var keyterms4 = [];
+keyterms4.push("Parkinson’s Law — The principle that work expands to fill the time allowed");
+keyterms4.push("PERT weighted average — (Optimistic time + 4 * most likely time + pessimistic time)/6");
+
+keyterms4.push("precedence diagramming method (PDM) — A network diagramming technique in which boxesrepresent activities");
+keyterms4.push("probabilistic time estimates — Duration estimates based on using optimistic, most likely, andpessimistic estimates of activity durations instead of using one specific or discrete estimate");
+keyterms4.push("Program Evaluation and Review Technique (PERT) — A project network analysis techniqueused to estimate project duration when there is a high degree of uncertainty about the individualactivity duration estimates");
+keyterms4.push("project buffer — Time added before the project’s due date");
+keyterms4.push("project time management — The processes required to ensure timely completion of a project");
+keyterms4.push("relationship — The sequencing of project activities or tasks; also called a dependency");
+keyterms4.push("resource breakdown structure — A hierarchical structure that identifies the project’s resources by category and type");
+keyterms4.push("resources — People, equipment, and materials");
+keyterms4.push("schedule baseline — The approved planned schedule for the project");
+keyterms4.push("slack — The amount of time a project activity may be delayed without delaying a succeedingactivity or the project finish date; also called float");
+
+keyterms4.push("slipped milestone — A milestone activity that is completed later than plannedSMART criteria — Guidelines to help define milestones that are specific, measurable, assign-able, realistic, and time-framed");
+keyterms4.push("start-to-finish dependency — A relationship on a project network diagram in which the “from”activity cannot start before the “to” activity is finished");
+keyterms4.push("start-to-start dependency — A relationship on a project network diagram in which the “from”activity cannot start until the “to” activity starts");
+keyterms4.push("task — An element of work normally found on the WBS that has an expected duration, cost,and resource requirements; also called an activity");
+keyterms4.push("Theory of Constraints (TOC) — A management philosophy that any complex system at anypoint in time often has only one aspect or constraint that limits the ability to achieve more of thesystem’s goal");
+keyterms4.push("three-point estimate — An estimate that includes an optimistic, most likely, and pessimisticestimate");
+keyterms4.push("total slack (total float) — The amount of time an activity may be delayed from its early startwithout delaying the planned project finish date");
+keyterms4.push("Tracking Gantt chart — A Gantt chart that compares planned and actual project scheduleinformation");
+
+var keyterms7 = [];
+keyterms7.push("actual cost (AC) — The total of direct and indirect costs incurred in accomplishing work on anactivity during a given period");
+keyterms7.push("analogous estimates — A cost-estimating technique that uses the actual cost of a previous,similar project as the basis for estimating the cost of the current project; also called top-downestimates");
+keyterms7.push("baseline — The original project plan plus approved changes");
+keyterms7.push("bottom-up estimates — A cost-estimating technique based on estimating individual work itemsand summing them to get a project totalbudget at completion (BAC) — The original total budget for a project");
+
+keyterms7.push("budgetary estimate — A cost estimate used to allocate money into an organization’s budget");
+keyterms7.push("cash flow analysis — A method for determining the estimated annual costs and benefits for aproject");
+keyterms7.push("contingency reserves — Dollar amounts included in a cost estimate to allow for future situa-tions that may be partially planned for (sometimes called known unknowns) and that areincluded in the project cost baseline");
+keyterms7.push("cost baseline — A time-phased budget that project managers use to measure and monitorcost performance");
+keyterms7.push("cost performance index (CPI) — The ratio of earned value to actual cost; can be used toestimate the projected cost to complete the project");
+keyterms7.push("cost variance (CV) — The earned value minus the actual cost");
+keyterms7.push("definitive estimate — A cost estimate that provides an accurate estimate of project costs");
+keyterms7.push("direct costs — Costs that can be directly related to creating the products and services of theproject");
+keyterms7.push("earned value (EV) — An estimate of the value of the physical work actually completed");
+keyterms7.push("earned value management (EVM) — A project performance measurement technique thatintegrates scope, time, and cost data");
+keyterms7.push("estimate at completion (EAC) — An estimate of what it will cost to complete the project basedon performance to date");
+keyterms7.push("indirect costs — Costs that are not directly related to the products or services of the project,but are indirectly related to performing the project");
+keyterms7.push("intangible costs or benefits — Costs or benefits that are difficult to measure in monetaryterms");
+keyterms7.push("known unknowns — Dollar amounts included in a cost estimate to allow for future situationsthat may be partially planned for (sometimes called contingency reserves) and that are includedin the project cost baseline");
+keyterms7.push("learning curve theory — A theory that when many items are produced repetitively, the unitcost of those items normally decreases in a regular pattern as more units are produced");
+keyterms7.push("life cycle costing — The total cost of ownership, or development plus support costs, for aproject");
+keyterms7.push("management reserves — Dollar amounts included in a cost estimate to allow for future situa-tions that are unpredictable (sometimes called unknown unknowns)");
+keyterms7.push("overrun — The additional percentage or dollar amount by which actual costs exceed estimates");
+keyterms7.push("parametric estimating — A cost-estimating technique that uses project characteristics (para-meters) in a mathematical model to estimate project costs");
+keyterms7.push("planned value (PV) — The portion of the approved total cost estimate planned to be spent onan activity during a given period");
+keyterms7.push("profit margin — The ratio between revenues and profits");
+keyterms7.push("profits — Revenues minus expenses");
+keyterms7.push("project cost management — The processes required to ensure that the project is completed within the approved budget");
+
+keyterms7.push("rate of performance (RP) — The ratio of actual work completed to the percentage of workplanned to have been completed at any given time during the life of the project or activity");
+keyterms7.push("reserves — Dollar amounts included in a cost estimate to mitigate cost risk by allowing forfuture situations that are difficult to predict");
+keyterms7.push("rough order of magnitude (ROM) estimate — A cost estimate prepared very early in the life ofa project to provide a rough idea of what a project will cost");
+keyterms7.push("schedule performance index (SPI) — The ratio of earned value to planned value; can be usedto estimate the projected time to complete a project");
+keyterms7.push("schedule variance (SV) — The earned value minus the planned value");
+keyterms7.push("sunk cost — Money that has been spent in the past");
+keyterms7.push("tangible costs or benefits — Costs or benefits that can be easily measured in dollars");
+keyterms7.push("top-down estimates — A cost-estimating technique that uses the actual cost of a previous,similar project as the basis for estimating the cost of the current project; also called analogousestimates");
+keyterms7.push("unknown unknowns — Dollar amounts included in a cost estimate to allow for future situationsthat are unpredictable (sometimes called management reserves)");
+
+
+var keyterms8 = [];
+
+keyterms8.push("appraisal cost — The cost of evaluating processes and their outputs to ensure that a project iserror-free or within an acceptable error range");
+keyterms8.push("benchmarking — A technique used to generate ideas for quality improvements by comparingspecific project practices or product characteristics to those of other projects or products withinor outside the performing organizationCapability Maturity Model Integration (CMMI) — A process improvement approach that pro-vides organizations with the essential elements of effective processes");
+keyterms8.push("cause-and-effect diagram — A diagram that traces complaints about quality problems back tothe responsible production operations to help find the root cause; also known as a fishbonediagram or Ishikawa diagram");
+keyterms8.push("checksheet — A technique used to collect and analyze data; sometimes called a tally sheet orchecklist");
+keyterms8.push("conformance — Delivering products that meet requirements and fitness for use");
+keyterms8.push("conformance to requirements — Project processes and products that meet writtenspecifications");
+keyterms8.push("control chart — A graphic display of data that illustrates the results of a process over time");
+keyterms8.push("cost of nonconformance — Taking responsibility for failures or not meeting qualityexpectations");
+keyterms8.push("cost of quality — The cost of conformance plus the cost of nonconformance");
+keyterms8.push("defect — Any instance in which the product or service fails to meet customer requirements");
+keyterms8.push("design of experiments — A quality technique that helps identify which variables have the mostinfluence on the overall outcome of a process");
+keyterms8.push("DMAIC (Define, Measure, Analyze, Improve, Control) — A systematic, closed-loop processfor continued improvement that is scientific and fact based");
+keyterms8.push("external failure cost — A cost related to all errors that are not detected and corrected beforedelivery to the customer");
+keyterms8.push("features — The special characteristics that appeal to users");
+keyterms8.push("fishbone diagram — A diagram that traces complaints about quality problems back to theresponsible production operations to help find the root cause; also known as a cause-and-effectdiagram or Ishikawa diagram");
+keyterms8.push("fitness for use — A product that can be used as it was intended");
+keyterms8.push("flowchart — A graphic display of the logic and flow of processes that helps you analyze howproblems occur and how processes can be improved");
+keyterms8.push("functionality — The degree to which a system performs its intended function");
+keyterms8.push("histogram — A bar graph of a distribution of variables");
+keyterms8.push("integration testing — Testing that occurs between unit and system testing to test functionallygrouped components and ensure that a subset or subsets of the entire system work together");
+keyterms8.push("internal failure cost — A cost incurred to correct an identified defect before the customerreceives the product");
+keyterms8.push("Ishikawa diagram — A diagram that traces complaints about quality problems back to theresponsible production operations to help find the root cause; also known as a cause-and-effectdiagram or fishbone diagram");
+
+
+keyterms8.push("ISO 9000 — A quality system standard developed by the International Organization for Stan-dardization (ISO) that includes a three-part, continuous cycle of planning, controlling, and docu-menting quality in an organization");
+keyterms8.push("kaizen — The Japanese word for improvement or change for the better; an approach used forcontinuously improving quality in organizations");
+keyterms8.push("lean — An approach for improving quality that involves evaluating processes to maximize cus-tomer value while minimizing waste");
+keyterms8.push("maintainability — The ease of performing maintenance on a product");
+keyterms8.push("Malcolm Baldrige National Quality Award — An award started in 1987 to recognize compa-nies that have achieved a level of world-class competition through quality management");
+keyterms8.push("maturity model — A framework for helping organizations improve their processes and systems");
+keyterms8.push("mean — The average value of a populationmeasurement and test equipment costs — The capital cost of equipment used to performprevention and appraisal activities");
+keyterms8.push("metric — A standard of measurement");
+keyterms8.push("normal distribution — A bell-shaped curve that is symmetrical about the mean of thepopulation");
+keyterms8.push("Pareto analysis — Identifying the vital few contributors that account for most quality problemsin a system");
+keyterms8.push("Pareto chart — A histogram that helps identify and prioritize problem areas");
+keyterms8.push("performance — How well a product or service performs the customer’s intended use");
+keyterms8.push("prevention cost — The cost of planning and executing a project so that it is error-free or withinan acceptable error range");
+keyterms8.push("process adjustments — Adjustments made to correct or prevent further quality problemsbased on quality control measurements");
+keyterms8.push("project quality management — Ensuring that a project will satisfy the needs for which it wasundertaken");
+keyterms8.push("quality — The totality of characteristics of an entity that bear on its ability to satisfy stated orimplied needs or the degree to which a set of inherent characteristics fulfill requirements");
+keyterms8.push("quality assurance — Periodic evaluation of overall project performance to ensure that the proj-ect will satisfy the relevant quality standards");
+keyterms8.push("quality audit — A structured review of specific quality management activities that helps identifylessons learned and that can improve performance on current or future projects");
+keyterms8.push("quality circles — Groups of nonsupervisors and work leaders in a single company departmentwho volunteer to conduct group studies on how to improve the effectiveness of work in theirdepartment");
+keyterms8.push("quality control — Monitoring specific project results to ensure that they comply with the rele-vant quality standards and identifying ways to improve overall quality");
+keyterms8.push("reliability — The ability of a product or service to perform as expected under normal conditions");
+keyterms8.push("rework — Action taken to bring rejected items into compliance with product requirements, spe-cifications, or other stakeholder expectations");
+
+keyterms8.push("Robust Design methods — Methods that focus on eliminating defects by substituting scientificinquiry for trial-and-error methods");
+keyterms8.push("run chart — A chart that displays the history and pattern of variation of a process over time");
+keyterms8.push("scatter diagram — A diagram that helps to show if there is a relationship between two vari-ables; sometimes called XY charts");
+keyterms8.push("seven run rule — If seven data points in a row on a quality control chart are all below themean, above the mean, or are all increasing or decreasing, then the process needs to beexamined for nonrandom problems");
+keyterms8.push("six 9s of quality — A measure of quality control equal to 1 fault in 1 million opportunities");
+keyterms8.push("Six Sigma — A comprehensive and flexible system for achieving, sustaining, and maximizingbusiness success that is uniquely driven by close understanding of customer needs, disciplineduse of facts, data, and statistical analysis, and diligent attention to managing, improving, andreinventing business processes");
+keyterms8.push("software defect — Anything that must be changed before delivery of the program");
+keyterms8.push("Software Quality Function Deployment (SQFD) model — A maturity model that focuses ondefining user requirements and planning software projects");
+keyterms8.push("standard deviation — A measure of how much variation exists in a distribution of data");
+keyterms8.push("statistical sampling — Choosing part of a population of interest for inspection");
+keyterms8.push("system outputs — The screens and reports the system generates");
+keyterms8.push("system testing — Testing the entire system as one entity to ensure that it is working properly");
+keyterms8.push("unit test — A test of each individual component (often a program) to ensure that it is as defect-free as possible");
+keyterms8.push("user acceptance testing — An independent test performed by end users prior to accepting thedelivered system");
+keyterms8.push("yield — The number of units handled correctly through the development process");
+keyterms8.push("");
+
+var keyterms9 = [];
+
+keyterms9.push("coercive power — Using punishment, threats, or other negative approaches to get people to dothings they do not want to do");
+keyterms9.push("collaborating mode — A conflict-handling mode in which decision makers incorporate differentviewpoints and insights to develop consensus and commitment");
+keyterms9.push("compromise mode — Using a give-and-take approach to resolve conflicts; bargaining andsearching for solutions that bring some degree of satisfaction to all the parties in a dispute");
+keyterms9.push("confrontation mode — Facing a conflict directly using a problem-solving approach that allowsaffected parties to work through their disagreements");
+keyterms9.push("deputy project managers — People who fill in for project managers in their absence and assistthem as needed");
+keyterms9.push("empathic listening — Listening with the intent to understand");
+keyterms9.push("expert power — Using one’s personal knowledge and expertise to get people to change theirbehavior");
+keyterms9.push("extrinsic motivation — An approach that causes people to do something for a reward or toavoid a penalty");
+keyterms9.push("forcing mode — Using a win-lose approach to conflict resolution to get one’s way");
+keyterms9.push("groupthink — Conformance to the values or ethical standards of a group");
+keyterms9.push("hierarchy of needs — A pyramid structure illustrating Maslow’s theory that people’s behaviorsare guided or motivated by a sequence of needs");
+keyterms9.push("intrinsic motivation — An approach that causes people to participate in an activity for theirown enjoyment");
+keyterms9.push("legitimate power — Getting people to do things based on a position of authority");
+keyterms9.push("mirroring — Matching certain behaviors of another person");
+keyterms9.push("Myers-Briggs Type Indicator (MBTI) — A popular tool for determining personality preferences");
+keyterms9.push("organizational breakdown structure (OBS) — A specific type of organizational chart thatshows which organizational units are responsible for particular work items");
+keyterms9.push("overallocation — A state in which not enough resources are available to perform the assignedwork during a given time period");
+
+keyterms9.push("power — The ability to influence behavior to get people to do things they would nototherwise do");
+keyterms9.push("RACI charts — Charts that show Responsibility, Accountability, Consultation, and Informedroles for project stakeholders");
+keyterms9.push("rapport — A relation of harmony, conformity, accord, or affinity");
+keyterms9.push("referent power — Getting others to do things based on a person’s own charisma");
+keyterms9.push("resource histogram — A column chart that shows the number of resources assigned to a proj-ect over time");
+keyterms9.push("resource leveling — A technique for resolving resource conflicts by delaying tasks");
+keyterms9.push("resource loading — The amount of individual resources an existing schedule requires duringspecific time periods");
+keyterms9.push("responsibility assignment matrix (RAM) — A matrix that maps the work of a project, asdescribed in the WBS, to the people responsible for performing the work, as described in theorganizational breakdown structure (OBS)");
+keyterms9.push("reward power — Using incentives to induce people to do things");
+keyterms9.push("smoothing mode — Deemphasizing or avoiding areas of differences and emphasizing areas ofagreement");
+keyterms9.push("staffing management plan — A document that describes when and how people will be addedto a project team and taken off it");
+keyterms9.push("subproject managers — People responsible for managing the subprojects of a larger project");
+keyterms9.push("synergy — An approach in which the whole is greater than the sum of the parts");
+keyterms9.push("team development — Building individual and group skills to enhance project performance");
+keyterms9.push("Tuckman model — A model that describes five stages of team development: forming, storming,norming, performing, and adjourning");
+keyterms9.push("withdrawal mode — Retreating or withdrawing from an actual or potential disagreement");
+
+var keyterms10 = [];
+
+keyterms10.push("blogs — Journals on the Web that allow users to write entries, create links, and uploadpictures, while readers can post comments to journal entries");
+keyterms10.push("communications management plan — A document that guides project communications");
+keyterms10.push("forecasts — Predictions of future project status and progress based on past information andtrends");
+keyterms10.push("Google Docs — Online applications offered by Google that allow users to create, share, andedit documents, spreadsheets, and presentations online");
+keyterms10.push("lessons-learned report — Reflective statements written by project managers and their teammembers to document important information they have learned from working on a project");
+keyterms10.push("progress reports — Reports that describe what the project team has accomplished during acertain period of time");
+keyterms10.push("project archives — A complete set of organized project records that provide an accuratehistory of the project");
+keyterms10.push("SharePoint portal — A tool that allows users to create custom Web sites to access documentsand applications stored on shared devices");
+keyterms10.push("status reports — Reports that describe where a project stands at a specific point in time");
+keyterms10.push("wiki — A Web site that enables anyone who accesses it to contribute or modify content");
+
+
+var keyterms11 = [];
+
+keyterms11.push("brainstorming — A technique by which a group attempts to generate ideas or find a solutionfor a specific problem by amassing ideas spontaneously and without judgment");
+keyterms11.push("contingency allowances — Provisions held by the project sponsor or organization to reducethe risk of cost or schedule overruns to an acceptable level; also called contingency reserves");
+keyterms11.push("contingency plans — Predefined actions that the project team will take if an identified riskevent occurs");
+keyterms11.push("contingency reserves — Provisions held by the project sponsor or organization to reduce therisk of cost or schedule overruns to an acceptable level; also called contingency allowances");
+keyterms11.push("decision tree — A diagramming analysis technique used to help select the best course ofaction when future outcomes are uncertain");
+keyterms11.push("Delphi technique — An approach used to derive a consensus among a panel of experts tomake predictions about future developments");
+keyterms11.push("expected monetary value (EMV) — The product of a risk event probability and the risk event’smonetary value");
+keyterms11.push("fallback plans — Plans developed for risks that have a high impact on meeting project objec-tives, and implemented if attempts to reduce the risk are not effective");
+keyterms11.push("flowcharts — Diagrams that show how various elements of a system relate to each other");
+keyterms11.push("influence diagram — A diagram that represents decision problems by displaying essential ele-ments, including decisions, uncertainties, and objectives, and how they influence each other");
+keyterms11.push("interviewing — A fact-finding technique that is normally done face to face, but can also occurthrough phone calls, e-mail, or instant messaging");
+keyterms11.push("known risks — Risks that the project team has identified and analyzed and that can be man-aged proactively");
+keyterms11.push("management reserves — Funds held for unknown risks");
+keyterms11.push("Monte Carlo analysis — A risk quantification technique that simulates a model’s outcomemany times to provide a statistical distribution of the calculated results");
+keyterms11.push("probability/impact matrix or chart — A matrix or chart that shows the relative probability of arisk occurring and the relative impact of the risk");
+keyterms11.push("residual risks — Risks that remain after all of the response strategies have been implemented");
+keyterms11.push("risk — An uncertainty that can have a negative or positive effect on meeting project objectives");
+keyterms11.push("risk acceptance — Accepting the consequences if a risk occurs");
+keyterms11.push("risk appetite — The degree of uncertainty an entity is willing to take on in anticipation of areward");
+keyterms11.push("risk-averse — Having a low tolerance for risk");
+keyterms11.push("risk avoidance — Eliminating a specific threat or risk, usually by eliminating its causes");
+keyterms11.push("risk breakdown structure — A hierarchy of potential risk categories for a project");
+keyterms11.push("risk enhancement — Changing the size of an opportunity by identifying and maximizing keydrivers of the positive risk");
+keyterms11.push("risk events — Specific uncertain events that may occur to the detriment or enhancement of theproject");
+keyterms11.push("risk exploitation — Doing whatever you can to make sure a positive risk happens");
+keyterms11.push("risk factors — Numbers that represent the overall risk of specific events, given their probabilityof occurring and the consequence to the project if they do occur");
+keyterms11.push("risk management plan — A plan that documents the procedures for managing risk throughouta project");
+keyterms11.push("risk mitigation — Reducing the impact of a risk event by reducing the probability of itsoccurrence");
+keyterms11.push("risk-neutral — A balance between risk and payoff");
+keyterms11.push("risk owner — The person who will take responsibility for a risk and its associated responsestrategies and tasks");
+keyterms11.push("risk register — A document that contains results of various risk management processes, oftendisplayed in a table or spreadsheet format");
+keyterms11.push("risk-seeking — Having a high tolerance for risk");
+keyterms11.push("risk sharing — Allocating ownership of a risk to another party");
+keyterms11.push("risk tolerance — The maximum acceptable deviation an entity is willing to accept on a projector business objectives as the potential impact");
+keyterms11.push("risk transference — Shifting the consequence of a risk and responsibility for its management toa third party");
+keyterms11.push("risk utility — The amount of satisfaction or pleasure received from a potential payoff");
+keyterms11.push("runaway projects — Projects that have significant cost or schedule overruns");
+keyterms11.push("secondary risks — Risks that are a direct result of implementing a risk response");
+keyterms11.push("sensitivity analysis — A technique used to show the effects of changing one or more variableson an outcome");
+keyterms11.push("Top Ten Risk Item Tracking — A qualitative risk analysis tool for identifying risks and main-taining an awareness of risks throughout the life of a project");
+keyterms11.push("triggers — Indications for actual risk events");
+keyterms11.push("unknown risks — Risks that cannot be managed proactively because they have not been");
+keyterms11.push("identified and analyzed");
+keyterms11.push("watch list — A list of risks that have low priority but are still identified as potential risks");
+keyterms11.push("workarounds — Unplanned responses to risk events when no contingency plans are in place");
+
+
+var keyterms12 = [];
+
+keyterms12.push("bid — A document prepared by sellers to provide pricing for standard items that the buyer hasclearly defined; also called a tender or quote (short for quotation)");
+keyterms12.push("constructive change orders — Oral or written acts or omissions by someone with actual orapparent authority that can be construed to have the same effect as a written change order");
+keyterms12.push("contract — A mutually binding agreement that obligates the seller to provide specified productsor services and obligates the buyer to pay for them");
+keyterms12.push("cost plus award fee (CPAF) contract — A contract in which the buyer pays the supplier forallowable performance costs plus an award fee based on the satisfaction of subjective perfor-mance criteria");
+keyterms12.push("cost plus fixed fee (CPFF) contract — A contract in which the buyer pays the supplier forallowable performance costs plus a fixed fee payment that is usually based on a percentage ofestimated costs");
+keyterms12.push("cost plus incentive fee (CPIF) contract — A contract in which the buyer pays the supplier forallowable performance costs along with a predetermined fee and an incentive bonus");
+keyterms12.push("cost plus percentage of costs (CPPC) contract — A contract in which the buyer pays the sup-plier for allowable performance costs along with a predetermined percentage based on total costs");
+keyterms12.push("cost-reimbursable contracts — Contracts that involve payment to the supplier for direct andindirect actual costs");
+keyterms12.push("fixed-price contract — A contract with a fixed total price for a well-defined product or service;also called a lump-sum contract");
+keyterms12.push("lump-sum contract — A contract with a fixed total price for a well-defined product or service;also called a fixed-price contract");
+keyterms12.push("make-or-buy decision — An organization’s decision to make certain products and perform cer-tain services inside the organization or to buy them from an outside organization");
+keyterms12.push("Point of Total Assumption (PTA) — The cost at which the contractor assumes total responsi-bility for each additional dollar of contract cost in a fixed-price incentive fee contract");
+keyterms12.push("procurement — Acquiring goods and services from an outside source");
+keyterms12.push("project procurement management — The processes required to acquire goods and servicesfor a project from outside the performing organization");
+keyterms12.push("proposal — A document prepared by sellers when there are different approaches for meetingbuyer needs");
+keyterms12.push("Request for Proposal (RFP) — A document used to solicit proposals from prospectivesuppliers");
+keyterms12.push("Request for Quote (RFQ) — A document used to solicit quotes or bids from prospectivesuppliers");
+keyterms12.push("sellers — Contractors, suppliers, or providers who provide goods and services to otherorganizations");
+keyterms12.push("statement of work (SOW) — A description of the work required for procurement");
+keyterms12.push("termination clause — A contract clause that allows the buyer or supplier to end the contract");
+keyterms12.push("time and material (T&M) contracts — A hybrid of fixed-price and cost-reimbursable contracts");
+keyterms12.push("unit pricing — An approach in which the buyer pays the supplier a predetermined amountper unit of service, and the total value of the contract is a function of the quantities needed tocomplete the work");
+
+var keyterms13 = [];
+
+keyterms13.push("expectations management matrix — A tool that helps clarify expectations and lists projectmeasures of success as well as priorities, expectations, and guidelines related to each measure");
+keyterms13.push("issue log — A tool used to document, monitor, and track issues that need resolution");
+keyterms13.push("power/interest grid — A tool used to group stakeholders based on their level of authority(power) and their level of concern (interest) for project outcomes");
+keyterms13.push("stakeholder analysis — A technique for analyzing information to determine which stakeholders’interests to focus on and how to increase stakeholder support throughout the project");
+keyterms13.push("stakeholder register — A document that includes details about identified project stakeholders");
+
+
+
 function searchStringInArray (str, strArray) {
 	var results = [];
     for (var j=0; j<strArray.length; j++) {
@@ -265,7 +532,6 @@ function vocab3(term){
 function vall(term){
 	var result = [];
 	result = result.concat(vocab(term), vocab2(term), vocab3(term));
-	// console.log(result);
 	return result;
 }
 
@@ -273,10 +539,16 @@ function vall(term){
 function doc_keyUp(e) {
 
     // this would test for whichever key is 40 and the ctrl key at the same time
-    if (e.ctrlKey && e.keyCode == 65 && e.altKey) {
+    if (e.keyCode == 65 && e.altKey) {
         // call your function to do the thing
         update();
     }
+
+    if (e.keyCode == 65 && e.ctrlKey && e.altKey) {
+        // call your function to do the thing
+        clear();
+    }
+
 }
 // register the handler 
 document.addEventListener('keyup', doc_keyUp, false);
@@ -284,25 +556,8 @@ document.addEventListener('keyup', doc_keyUp, false);
 function update(){
 	var allElements = [];
 
-	allElements.push(document.getElementsByClassName("ic-app-header__menu-list-link"));
-	allElements.push(document.getElementsByClassName("home"));
-	allElements.push(document.getElementsByClassName("announcements"));
-	allElements.push(document.getElementsByClassName("assignments"));
-	allElements.push(document.getElementsByClassName("discussions"));
-	allElements.push(document.getElementsByClassName("grades"));
-	allElements.push(document.getElementsByClassName("people"));
-	allElements.push(document.getElementsByClassName("files"));
-	allElements.push(document.getElementsByClassName("syllabus"));
-	allElements.push(document.getElementsByClassName("outcomes"));
-	allElements.push(document.getElementsByClassName("quizzes"));
-	allElements.push(document.getElementsByClassName("people"));
-	allElements.push(document.getElementsByClassName("modules"));
-	allElements.push(document.getElementsByClassName("conferences"));
-	allElements.push(document.getElementsByClassName("collaborations"));
-	allElements.push(document.getElementsByClassName("attendance"));
-	allElements.push(document.getElementsByClassName("settings"));
+	allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
 
-//change to concat
 	var searchTerm = getSelectionText();
 	var searchWordArray = vall(searchTerm);
 
@@ -310,30 +565,34 @@ function update(){
 		if(searchWordArray[i]  == null){
 			break;
 		}
-		console.log(allElements[i]);
+		// console.log(searchWordArray[i]);
 
 		allElements[i].title = searchWordArray[i];
+
 	}
 
-	// for(var i=0;i<elements2.length;i++){
-	// 	if(searchWordArray[i+elements.length]  == null){
-	// 		break;
-	// 	}
-
-	// 	elements2[i].title = searchWordArray[i + elements.length];
-	// }
-
-
-	sleep(5000).then(() => {
-		for(var i=0;i<elements.length;i++){
-			elements[i].title = "";
-		}
-	});
 }
+
+function clear(){
+    var allElements = [];
+
+    allElements = document.getElementsByClassName("ic-app-header__menu-list-link");
+
+    for(var i=0;i<allElements.length;i++){
+        allElements[i].title = "";
+    }
+}
+
 // sleep time expects milliseconds
 function sleep (time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
+
+function clearElementTitle(element){
+	console.log(element);
+	element.title = "";
+}
+
 
 // Usage!
 
