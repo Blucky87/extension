@@ -715,6 +715,28 @@ function vocabALLRev(term){
 	return result.reverse();
 }
 
+function vocabSTART(term){
+	var result = [];
+	result = result.concat(vocab(term), 
+							vocab2(term), 
+							vocab3(term)
+
+						);
+
+	return result;
+}
+
+function vocabSTARTRev(term){
+	var result = [];
+	result = result.concat(vocab(term), 
+							vocab2(term), 
+							vocab3(term)
+							
+						);
+	
+	return result.reverse();
+}
+
 function vocabLate(term){
 	var result = [];
 	result = result.concat(vocab7(term),
